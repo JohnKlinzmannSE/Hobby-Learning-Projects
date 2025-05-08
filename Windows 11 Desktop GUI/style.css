@@ -44,12 +44,6 @@ li {
   align-items: center;
 }
 
-.taskbar-btn {
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
-
 .taskbar img {
   height: 35px;
 }
@@ -77,6 +71,13 @@ label img {
   font-size: .85rem;
 }
 
+.app-launcher {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: 1em;
+}
+
 .notification-area {
   display: flex;
   align-items: center;
@@ -90,6 +91,19 @@ label img {
   font-family: sans-serif;
   font-size: .8rem;
   text-align: center;
+}
+
+.taskbar-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: .5em;
+}
+
+.taskbar-btn:hover {
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .copyright {
