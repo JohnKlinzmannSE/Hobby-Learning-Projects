@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="A graphical user interface of the Ubuntu 24.04 desktop built using HTML, CSS, and Vanilla JavaScript." />
-<meta name="author" content="John Klinzmann" />
-<title>Ubuntu 24.04 | Desktop GUI</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
-</head>
-<body>
-<header></header>
-<main></main>
-<footer>&copy; John Klinzmann</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A graphical user interface of the Ubuntu 24.04 Gnome 3 desktop built using HTML, CSS, and Vanilla JavaScript." />
+    <meta name="author" content="John Klinzmann" />
+    <title>Ubuntu 24.04 | Desktop GUI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="taskbar">
+      <button class="app-switcher-btn"></button>
+      <button class="calendar-and-clock-btn"></button>
+      <button class="quick-settings-btn"></button>
+    </header>
+
+    <main class="desktop"></main>
+
+    <footer class="app-dock">
+      <nav>
+        <ul>
+          <li><img src="" alt="" /></li>
+          <!--file manager launcher-->
+        </ul>
+      </nav>
+    </footer>
+    <p class="copyright">&copy; 2025 Design by Canonical, Ltd. Coded by John Klinzmann.</p>
+  </body>
 </html>
