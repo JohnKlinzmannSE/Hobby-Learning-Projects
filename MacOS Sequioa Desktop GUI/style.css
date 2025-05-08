@@ -19,7 +19,8 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -30,12 +31,12 @@ li {
 }
 
 .taskbar {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .taskbar .app-menus ul {
@@ -50,6 +51,23 @@ li {
 .calendar-clock-area {
   display: flex;
   align-items: center;
+}
+
+.taskbar-btn:hover {
+  cursor: pointer;
+}
+
+.app-dock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: .5em;
+}
+
+.app-dock img {
+  height: 64px;
 }
 
 .copyright {
