@@ -11,6 +11,16 @@ a {
 li {
  list-style: none;
 }
+
+body {
+  background-image: url('images/backgrounds/warty-final-ubuntu.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
 /* Fonts */
 /* Custom Properties */
 :root {
