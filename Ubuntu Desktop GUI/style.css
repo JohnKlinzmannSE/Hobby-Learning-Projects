@@ -121,8 +121,7 @@ li {
 }
 
 .copyright {
-  color: rgba(255,255,255,0.25);
+  color: rgba(255, 255, 255, 0.25);
   position: absolute;
   bottom: 100px;
-  /* right: 10px; */
 }
