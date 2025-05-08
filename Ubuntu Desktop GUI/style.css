@@ -4,13 +4,10 @@
  padding: 0;
  box-sizing: border-box;
 }
-/*----- GLOBAL STYLES -----*/
-a {
- text-decoration: none;
-}
-li {
- list-style: none;
-}
+
+:root {
+  /* Colors */
+  }
 
 body {
   background-image: url('images/backgrounds/warty-final-ubuntu.png');
@@ -18,24 +15,47 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+
+.taskbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  background-color: #131313;
 }
 
 
-/* Fonts */
-/* Custom Properties */
-:root {
-/* Colors */
+.desktop {
 }
-/*----- LOCAL STYLES -----*/
-/*HEADER*/
-header {
+
+
+.app-dock {
+  background-color: rgba(0,0,0,0.5);
+  height: auto;
+  width: 50%;
+  padding: .5em;
+  border: 1px solid #464646;
+  position: absolute;
+  bottom: 10px;
 }
-/*NAVIGATION*/
-nav {
-}
-/*MAIN CONTENT AREA*/
-main {
-}
-/*FOOTER*/
-footer {
+
+.copyright {
+  color: #131313;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
