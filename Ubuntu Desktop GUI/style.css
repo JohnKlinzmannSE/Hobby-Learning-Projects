@@ -37,6 +37,25 @@ li {
   background-color: #131313;
 }
 
+.taskbar .quick-settings-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: .25em .5em;
+  font-size: 1.1rem;
+}
+
+.taskbar .quick-settings-btn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 .desktop {
 }
 
@@ -52,19 +71,19 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:.5em;
+  padding: 0.5em;
 }
 
 .app-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .app-container:hover {
   cursor: pointer;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 }
 
