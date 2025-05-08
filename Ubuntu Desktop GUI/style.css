@@ -1,13 +1,13 @@
 /*----- RESET -----*/
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
   /* Colors */
-  }
+}
 
 body {
   background-image: url('images/backgrounds/warty-final-ubuntu.png');
@@ -23,11 +23,10 @@ body {
 
 a {
   text-decoration: none;
- }
- li {
+}
+li {
   list-style: none;
- }
-
+}
 
 .taskbar {
   display: flex;
@@ -38,19 +37,47 @@ a {
   background-color: #131313;
 }
 
-
 .desktop {
 }
 
-
 .app-dock {
-  background-color: rgba(0,0,0,0.5);
-  height: auto;
-  width: 50%;
-  padding: .5em;
-  border: 1px solid #464646;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #666;
   position: absolute;
   bottom: 10px;
+  border-radius: 10px;
+}
+
+.app-dock nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:.5em;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em;
+}
+
+.app-container:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.app-dock img {
+  height: 46px;
+}
+
+.app-dock img:hover {
+  cursor: pointer;
+}
+
+.ubuntu-logo {
+  transform: scale(0.9);
 }
 
 .copyright {
