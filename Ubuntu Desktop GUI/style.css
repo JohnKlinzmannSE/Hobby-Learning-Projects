@@ -39,13 +39,13 @@ li {
 }
 
 .taskbar .app-switcher-btn {
-  height: 40px;
-  width: 100px;
+  height: 30px;
+  width: 60px;
 }
 
 .taskbar .app-switcher-btn .minus-sign {
   height: 9px;
-  width: 100%;
+  width: 80%;
   border-radius: 50px;
   background-color: #fff;
 }
