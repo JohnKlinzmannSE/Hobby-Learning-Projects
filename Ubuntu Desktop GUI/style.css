@@ -1,0 +1,31 @@
+/*----- RESET -----*/
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/*----- GLOBAL STYLES -----*/
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/* Fonts */
+/* Custom Properties */
+:root {
+/* Colors */
+}
+/*----- LOCAL STYLES -----*/
+/*HEADER*/
+header {
+}
+/*NAVIGATION*/
+nav {
+}
+/*MAIN CONTENT AREA*/
+main {
+}
+/*FOOTER*/
+footer {
+}
