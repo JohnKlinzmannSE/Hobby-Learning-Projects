@@ -35,7 +35,27 @@ li {
   height: 40px;
   width: 100%;
   background-color: #131313;
+  padding: 0 1em;
 }
+
+.taskbar .app-switcher-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 40px;
+  width: 35px;
+}
+
+.taskbar .app-switcher-btn .minus-sign {
+  height: 9px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
 
 .taskbar .quick-settings-btn {
   background-color: transparent;
@@ -47,7 +67,7 @@ li {
   align-items: center;
   justify-content: center;
   gap: 1em;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   font-size: 1.1rem;
 }
 
