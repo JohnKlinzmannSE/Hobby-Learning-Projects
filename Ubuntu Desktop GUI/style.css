@@ -39,14 +39,8 @@ li {
 }
 
 .taskbar .app-switcher-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  outline: none;
-  background-color: transparent;
   height: 40px;
-  width: 35px;
+  width: 50px;
 }
 
 .taskbar .app-switcher-btn .minus-sign {
@@ -56,22 +50,25 @@ li {
   background-color: #fff;
 }
 
-
 .taskbar .quick-settings-btn {
-  background-color: transparent;
-  color: #fff;
+  gap: 1em;
+}
+
+.taskbar-btn {
+  padding: 0.25em 0.5em;
+  font-size: 1.1rem;
+  border-radius: 50px;
   border: none;
   outline: none;
-  border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
-  padding: 0.25em 0.5em;
+  background-color: transparent;
+  color: #fff;
   font-size: 1.1rem;
 }
 
-.taskbar .quick-settings-btn:hover {
+.taskbar-btn:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.15);
 }
