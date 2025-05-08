@@ -65,6 +65,8 @@ label img {
   padding: .65rem 2.5rem;
   border-radius: 50px;
   background-color: #3c3c3c;
+  color: #fff;
+  font-size: .85rem;
 }
 ::placeholder {
   color: #fff;
