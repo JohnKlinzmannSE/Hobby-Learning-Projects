@@ -88,10 +88,20 @@ li {
   padding: 0.5em;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
+  margin-bottom: .5em;
 }
 
 .app-dock img {
   height: 64px;
+}
+
+.app-dock img:first-child {
+  margin-right: 1em;
+  transform: scale(.95);
+}
+
+.app-dock img:last-child {
+  transform: scale(.8);
 }
 
 .copyright {
