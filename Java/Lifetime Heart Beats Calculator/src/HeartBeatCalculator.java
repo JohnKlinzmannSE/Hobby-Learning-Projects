@@ -29,6 +29,7 @@ public class HeartBeatCalculator {
         //  Calculate total heart beats per month
         totalMonthlyHeartBeats = avgHeartBeatsPerMinute * 60 * 24 * 7 * 4;
         System.out.println("Your heart has beat " + totalMonthlyHeartBeats + " times every month.");
+        System.out.println();  //  Add blank line to make output easier to read
 
         //  Calculate age in weeks and output to user
         userAgeWeeks = userAgeYears * 52;
@@ -37,6 +38,7 @@ public class HeartBeatCalculator {
         //  Calculate total heart beats per week
         totalWeeklyHeartBeats = avgHeartBeatsPerMinute * 60 * 24 * 7;
         System.out.println("Your heart has beat " + totalWeeklyHeartBeats + " times every week.");
+        System.out.println();
 
         //  Calculate age in days and output to user
         userAgeDays = userAgeYears * 365;
@@ -45,6 +47,7 @@ public class HeartBeatCalculator {
         //  Calculate total heart beats per day
         totalDailyHeartBeats = avgHeartBeatsPerMinute * 60 * 24;
         System.out.println("Your heart has beat " + totalDailyHeartBeats + " times every day.");
+        System.out.println();
 
         //  Calculate age in hours and output to user
         userAgeHours = userAgeDays * 24;
@@ -53,6 +56,7 @@ public class HeartBeatCalculator {
         //  Calculate total heart beats per hour and output to user
         totalHourlyHeartBeats = avgHeartBeatsPerMinute * 60;
         System.out.println("Your heart has beat " + totalHourlyHeartBeats + " times every hour.");
+        System.out.println();
 
         //  Calculate age in minutes and output to user
         userAgeMinutes = userAgeHours * 60;
@@ -60,6 +64,7 @@ public class HeartBeatCalculator {
 
         //  Output total heartbeats per minute to user
         System.out.println("Your heart beats " + avgHeartBeatsPerMinute + " times every minute.");
+        System.out.println();
 
         //  Calculate age in seconds and output to user
         userAgeSeconds = userAgeMinutes * 60;
@@ -67,7 +72,8 @@ public class HeartBeatCalculator {
 
         //  Calculate heart beats per second and output to user
         totalHeartBeatsPerSecond = avgHeartBeatsPerMinute / 60;
-        System.out.println("Your heart beats on average " + totalHeartBeatsPerSecond + " times every second.");
+        System.out.println("Your heart has beat on average " + totalHeartBeatsPerSecond + " times every second.");
+        System.out.println();
 
         //  Calculate total lifetime heart beats and output to user along with current age in years
         totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
