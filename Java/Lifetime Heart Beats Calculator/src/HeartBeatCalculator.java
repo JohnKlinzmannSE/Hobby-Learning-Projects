@@ -26,25 +26,24 @@ public class HeartBeatCalculator {
         userAgeMonths = userAgeYears * 12;
         System.out.println("Your have been alive for " + userAgeMonths + " months.");
 
-        //  Calculate total heart beats per month and output to user
-        System.out.println("Your heart beats " + " every month.");
-
         //  Calculate total heart beats per month
-
+        totalMonthlyHeartBeats = avgHeartBeatsPerMinute * 60 * 24 * 7 * 4;
+        System.out.println("Your heart has beat " + totalMonthlyHeartBeats + " times every month.");
 
         //  Calculate age in weeks and output to user
         userAgeWeeks = userAgeYears * 52;
         System.out.println("Your have been alive for " + userAgeWeeks + " weeks.");
 
         //  Calculate total heart beats per week
-
+        totalWeeklyHeartBeats = avgHeartBeatsPerMinute * 60 * 24 * 7;
+        System.out.println("Your heart has beat " + totalWeeklyHeartBeats + " times every week.");
 
         //  Calculate age in days and output to user
         userAgeDays = userAgeYears * 365;
         System.out.println("Your have been alive for " + userAgeDays + " days.");
 
         //  Calculate total heart beats per day
-        totalDailyHeartBeats = (avgHeartBeatsPerMinute * 60) * 24;
+        totalDailyHeartBeats = avgHeartBeatsPerMinute * 60 * 24;
         System.out.println("Your heart has beat " + totalDailyHeartBeats + " times every day.");
 
         //  Calculate age in hours and output to user
