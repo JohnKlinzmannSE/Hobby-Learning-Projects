@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HeartBeatCalculator {
     public static void main(String[] args) {
-        Scanner scnr = new Scanner (System.in);
+        Scanner scnr = new Scanner(System.in);
         int userAgeYears;
         int userAgeMonths;
         int userAgeWeeks;
@@ -36,5 +36,8 @@ public class HeartBeatCalculator {
 
 //        Calculate Total Heart Beats
         totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
+
+//        Display total heart beats for user
+        System.out.println("Your heart has beat " + totalHeartBeats + " times since you were born.");
     }
 }
