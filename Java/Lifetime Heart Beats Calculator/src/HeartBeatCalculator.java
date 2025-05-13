@@ -77,7 +77,7 @@ public class HeartBeatCalculator {
 
         //  Calculate total lifetime heart beats and output to user along with current age in years
         totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
-        System.out.println("You are " + userAgeYears + " years old.");
+        System.out.println("You have been alive for " + userAgeYears + " years.");
         System.out.println("Your heart has beat " + totalHeartBeats + " times since you were born.");
     }
 }
