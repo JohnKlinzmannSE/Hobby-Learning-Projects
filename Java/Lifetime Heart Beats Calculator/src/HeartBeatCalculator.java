@@ -12,5 +12,11 @@ public class HeartBeatCalculator {
         int totalHeartBeats;
         int avgHeartBeatsPerMinute = 72;
 
+//        Get user age from user input
+        System.out.print("Please enter your current age in year.");
+        userAgeYears = scnr.nextInt();
+
+
+
     }
 }
