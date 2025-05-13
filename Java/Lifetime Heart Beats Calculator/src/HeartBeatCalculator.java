@@ -12,32 +12,42 @@ public class HeartBeatCalculator {
         int userAgeSeconds;
         int totalHeartBeats;
         int avgHeartBeatsPerMinute = 72;
+        int totalMonthlyHeartBeats;
+        int totalWeeklyHeartBeats;
+        int totalDailyHeartBeats;
+        int totalHourlyHeartBeats;
+        int totalHeartBeatsPerSecond;
 
-//        Get user age from user input
+        //        Get user age from user input
         System.out.print("Please enter your current age in year.");
         userAgeYears = scnr.nextInt();
 
-//        Calculate Age in Months
-        userAgeMonths = userAgeYears * 12;
+        //        Output total lifetime heart beats for user
+        System.out.print("You are " + userAgeYears + " years old.");
+        System.out.println("Your heart has beat " + totalHeartBeats + " times since you were born.");
 
+        //        Calculate Age in Months
+        userAgeMonths = userAgeYears * 12;
+        System.out.print("Your heart beats " + " every month.");
+
+        //        Calculate Age in Weeks
         userAgeWeeks = userAgeYears * 52;
 
-//        Calculate Age in Days
+        //        Calculate Age in Days
         userAgeDays = userAgeYears * 365;
 
-//        Calculate Age in Hours
+        //        Calculate Age in Hours
         userAgeHours = userAgeDays * 24;
 
-//        Calculate Age in Minutes
+        //        Calculate Age in Minutes
         userAgeMinutes = userAgeHours * 60;
 
-//        Calculate Age in Seconds
+        //        Calculate Age in Seconds
         userAgeSeconds = userAgeMinutes * 60;
 
-//        Calculate Total Heart Beats
+        //        Calculate Total Heart Beats
         totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
 
-//        Display total heart beats for user
-        System.out.println("Your heart has beat " + totalHeartBeats + " times since you were born.");
+
     }
 }
