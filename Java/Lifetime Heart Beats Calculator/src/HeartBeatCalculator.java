@@ -22,34 +22,44 @@ public class HeartBeatCalculator {
         System.out.print("Please enter your current age in year.");
         userAgeYears = scnr.nextInt();
 
+        //        Calculate age in months and output to user
+        userAgeMonths = userAgeYears * 12;
+        System.out.print("Your have been alive for " + userAgeMonths + " months.");
+
+        //        Calculate total heart beats per month and output to user
+        System.out.print("Your heart beats " + " every month.");
+
+        //        Calculate age in weeks
+        userAgeWeeks = userAgeYears * 52;
+
+        //        Calculate age in days
+        userAgeDays = userAgeYears * 365;
+
+        //        Calculate age in hours
+        userAgeHours = userAgeDays * 24;
+
+        //        Calculate age in minutes and output to user
+        userAgeMinutes = userAgeHours * 60;
+        System.out.print("Your have been alive for " + userAgeMinutes + " minutes.");
+
+//        Output total heartbeats per minute
+        System.out.print("Your heart beats " + avgHeartBeatsPerMinute + " times every minute.");
+
+
+        //        Calculate age in seconds
+        userAgeSeconds = userAgeMinutes * 60;
+        System.out.print("Your have been alive for " + userAgeSeconds + " seconds.");
+
+        //        Calculate heart beats per second
+        totalHeartBeatsPerSecond = avgHeartBeatsPerMinute / 60;
+        System.out.print("Your heart beats on average " + totalHeartBeatsPerSecond + " times every second.");
+
+        //        Calculate total heart beats
+        totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
+
         //        Output total lifetime heart beats for user
         System.out.print("You are " + userAgeYears + " years old.");
         System.out.println("Your heart has beat " + totalHeartBeats + " times since you were born.");
-
-        //        Calculate Age in Months
-        userAgeMonths = userAgeYears * 12;
-
-        System.out.print("Your heart beats " + " every month.");
-
-        //        Calculate Age in Weeks
-        userAgeWeeks = userAgeYears * 52;
-
-        //        Calculate Age in Days
-        userAgeDays = userAgeYears * 365;
-
-        //        Calculate Age in Hours
-        userAgeHours = userAgeDays * 24;
-
-        //        Calculate Age in Minutes
-        userAgeMinutes = userAgeHours * 60;
-
-        //        Calculate Age in Seconds
-        userAgeSeconds = userAgeMinutes * 60;
-        System.out.print("Your heart beats on average " + avgHeartBeatsPerMinute + " times every minute.");
-
-        //        Calculate Total Heart Beats
-        totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
-
 
     }
 }
