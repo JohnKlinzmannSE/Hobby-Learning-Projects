@@ -10,7 +10,7 @@ public class HeartBeatCalculator {
         int userAgeHours;
         int userAgeMinutes;
         int userAgeSeconds;
-        int totalHeartBeats;
+        int totalHeartBeats = 0;
         int avgHeartBeatsPerMinute = 72;
         int totalMonthlyHeartBeats;
         int totalWeeklyHeartBeats;
@@ -28,6 +28,7 @@ public class HeartBeatCalculator {
 
         //        Calculate Age in Months
         userAgeMonths = userAgeYears * 12;
+
         System.out.print("Your heart beats " + " every month.");
 
         //        Calculate Age in Weeks
@@ -44,6 +45,7 @@ public class HeartBeatCalculator {
 
         //        Calculate Age in Seconds
         userAgeSeconds = userAgeMinutes * 60;
+        System.out.print("Your heart beats on average " + avgHeartBeatsPerMinute + " times every minute.");
 
         //        Calculate Total Heart Beats
         totalHeartBeats = userAgeMinutes * avgHeartBeatsPerMinute;
